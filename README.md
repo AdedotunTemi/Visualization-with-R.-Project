@@ -2,57 +2,45 @@
 
 ## Table of contents
 
-- [Overview](#about)
-- [Project Description](#project-description)
+- [Overview](#overview)
+- [Project Objective](#project-objective)
 - [Dataset](#dataset)
-- [Research Questions](#research-questions)
+- [Descriptive Statistics](#descriptive-statistics)
 - [Links](#links)
 - [Built with](#built-with)
 - [Key Insights](#key-insights)
 - [Contributors](#contributors)
   -[Team Anchor](#team-anchor)
-- [Acknowledgements](#acknowledgements
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
-A portfolio project involving a detailed analysis of 37,997 high school/college student records to showcase key insights through the aid of effective visualizations aimed at evaluating the factors affecting student's academic performance in high school and colleges in the USA.
+This portfolio project analysis is to gain insights into the crime patterns and trends within Derby, this report presents an analysis of the crime data set obtained from Derbyshire, a city in the United Kingdom. The data set comprises information from 642 observations across 18 variables, providing a comprehensive overview of various crime-related aspects in different regions of Derby. The variables include socio-economic factors, population statistics, land area, and the occurrence of different types of crimes such as anti-social behavior, burglary, robbery, vehicle crimes, violent crimes, shoplifting, criminal damage, and more.
+
+## Project Objective
+I will be visualizing to determine if and why certain areas were prone to crime. For example, if a particular area has a higher crime rate compared to another area with similar population and land area, further investigation can be done to determine the cause. The primary objective to visualize and provide information that can assist in the decision-making processes for law enforcement agencies, local authorities, and community organizations. By examining the relationships between population, land area, and different types of crimes. I aim to identify areas that may require targeted interventions, resource allocation, or policy adjustments to address and mitigate criminal activities effectively. Additionally, this report will explore the variations in crime rates across different regions within Derby. By analyzing the distribution of crimes across neighborhoods, we can identify areas with higher crime rates, understand the prevalent types of crimes in specific regions, and evaluate the effectiveness of existing crime prevention strategies.
 
 ## Dataset
+The structure of the dataset indicates that it is a data frame consisting of 642 observations (rows) and 18 variables (columns). Here is the interpretation of each variable:
 
-- This **[data set](https://content.cloudfront.entrylevel.net/experience/data3/module-4/Module+4+-+Task+Files.zip?_gl=1*pfl0lt*_ga*MTkwNzE2MzgwOC4xNjY2NzE1NTk0*_ga_8RTQ11GGMX*MTY3MDgwMTEyMS44OC4xLjE2NzA4MDUzNzcuNjAuMC4w)** contains four csv files of student data provided by Entry Level for the purpose of this report. The four csv files contain data about the _country info, student academic info, student family details_ and _student personal details_ respectively for 37997 student records. The four datasets were combined using sqlite to form a reporting table which served as our database from where we then created additional tables used to answer our research questions.
+![Screen Shot 2024-05-09 at 19 25 48](https://github.com/AdedotunTemi/Reported-Crime-Portfolio-Project-Data-Visualization.R/assets/168010102/a743fde3-b407-43a8-abd1-f92def9d36ff)
+![Screen Shot 2024-05-09 at 19 26 24](https://github.com/AdedotunTemi/Reported-Crime-Portfolio-Project-Data-Visualization.R/assets/168010102/924dc0e5-10a7-4afd-b847-63c53495dff6)
 
-- Key column variables in the dataset includes :
+This data set is very useful for analyzing crime patterns in different parts of Derbyshire. By matching crime indicators with population and land area statistics. 
 
-| variables | Details |
-| --------------------- | ---------------------- |
-| gender | factor indicating gender |
-| ethnicity | factor indicating ethnicity (African-American, Hispanic, Asian or other) |
-| academic_score | student’s academic score throughout high school and college |
-| student_tuition | cost of tuition for the student |
-| education | the years of education the student has received |
-| fcollege | factor. Is the father a college graduate? |
-| mcollege | factor. Is the mother a college graduate? |
-| home | factor. Does the family own their home? |
-| urban | factor. Is the school in an urban area? |
-| unemp | county unemployment rate in 2020 |
-| income | high or low income household based on county average |
-| wage | state hourly wage in manufacturing in 1980 |
-| distance |  distance from 4-year college (in 10 miles) 
-| region | factor indicating region (West, East or other) |
-| avg_county_tuition | average state 4-year college tuition (in 1000 USD) |
 
-## Root Cause Analysis Process
-To ascertain a root cause analysis, we attempted to answer the followimg questions with the newly created tables
+## Descriptive Statistics
+![Screen Shot 2024-05-09 at 19 41 25](https://github.com/AdedotunTemi/Reported-Crime-Portfolio-Project-Data-Visualization.R/assets/168010102/a9606040-772c-4bf2-b214-2271856606c0)
 
-1. What are the proportion of educated students by ethnicity
-2. How can we evaluate the Cost of college tuition against household income
-3. What is the effect of a student's parents  education on the education of the student
-4. Is location of school a determinant on tuition 
-5. What is the differences in student's performance with respect to where the school is location
-6. Which ethnic group has a higher performance rate in schools and which gender performs better on average?
-7. Does the age of a student have an effect on their academic performance in school?
+ •The summary statistics show us that difference in Anti Social Behaviour mean 52.35 and medium (36.00) is high, it means that the data is skewed or not evenly distributed. its positively skewed distribution.
  
+ •Theft from the person mean (2.22) and medium (1.00) show the data is highly skewed to the right with a skewness value of 20.52, indicating the       presence of some extremely high values
+
+ •The differences in the mean and median values shows that each crime type may be skewed in different directions.
+
 
 ### Links
+Data
+
 
 #### Solution URL: 
 
