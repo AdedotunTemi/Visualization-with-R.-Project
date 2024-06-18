@@ -6,12 +6,10 @@
 - [Project Objective](#project-objective)
 - [Dataset](#dataset)
 - [Descriptive Statistics](#descriptive-statistics)
-- [Links](#links)
+- [Links](#Solution-URL)
 - [Built with](#built-with)
 - [Key Insights](#key-insights)
-- [Contributors](#contributors)
-  -[Team Anchor](#team-anchor)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Overview
 This portfolio project analysis is to gain insights into the crime patterns and trends within Derby, this report presents an analysis of the crime data set obtained from Derbyshire, a city in the United Kingdom. The data set comprises information from 642 observations across 18 variables, providing a comprehensive overview of various crime-related aspects in different regions of Derby. The variables include socio-economic factors, population statistics, land area, and the occurrence of different types of crimes such as anti-social behavior, burglary, robbery, vehicle crimes, violent crimes, shoplifting, criminal damage, and more.
@@ -38,57 +36,16 @@ This data set is very useful for analyzing crime patterns in different parts of 
  •The differences in the mean and median values shows that each crime type may be skewed in different directions.
 
 
-### Links
-Data
-
-
 #### Solution URL: 
 
 - [Project Report](https://drive.google.com/file/d/1g_9eSkNoOTPBWlbdGwKpvYdr_TC8jHWZ/view?usp=share_link)
-- [Google Sheet Dashboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vS8upZC6jUWUWom88WhFAnp6bxs6vlykOnz8ak5SmOqZ-IjR2ny8aNszT3yjFKj-izQ4EvY2KIJn-kv/pubhtml?gid=36790771&single=true)
-
 
 ### Built with
 
-- SQLite
-- Google Sheets
-- Pivot tables, SQL Aggregations
+- R studio
+
 
 ## Key Insights
 
-- The African American students are the least represented while the 'other' category of students are the most represented in our student's sample.						
-- Average number of years spent by students in school is 14 years for students of all ethnicities.	
-						
-- There was no considerable effect of a student's age on their academic scores.						
-
-- Students from high income homes pay on average slightly higher student tuition (0.72% higher) than those from low income homes.
-						
-- Students from high incomes homes pay a country tuition of averagely 1.23% higher than those from low-income homes
-						
-- There is no considerable effect of parents education on the education of the student						
-
-- Student who have both parents educated perform better in academic scores and have more years of education than those with both or either parent uneducated						
-- Students with both parents not educated perform the least in academic scores and have lesser years of education than those with both or either parents educated						
-- Average country tuition for the western region of the country is very much lower than other regions of the country.
-					
-- There is no considerable difference in academic scores of students in the different regions/settlement type	
-					
-- Average academic scores per student across all region is 51%						
-
-- Male students on average have better academic scores than female students	
-
-- In terms of academic performance, Asians rank better than all other ethnic groups in the country.
-
-- A plot of academic scores for all students shows a symmetrical distribution	
-
-- More students have an academic score of 56% than any other score.					
-
-- Lowest academic score of any student is 29% and highest of any student is 73%.
-
-- 51.5% of all students passed  (scored greater than or equal to 50) whilst 48.5% of all students failed (scored less than 50).
-
-![image1](https://user-images.githubusercontent.com/88894128/209207928-053987ee-5ffd-4d7f-b5ac-517a2037b9f0.png)
 
 
-## Acknowledgments
-Special thanks to Entry level for providing the dataset for this project and to the Data Analyst 3: Advanced SQL class tutor - Nabeel for the lessons and knowledge gained.
