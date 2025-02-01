@@ -38,7 +38,7 @@ This data set is very useful for analyzing crime patterns in different parts of 
 
 #### Solution URL: 
 
-- [Project Report]()
+- [Project Report](https://drive.google.com/file/d/1k28MTRANEWqirJOmX6IEjA9HrrB8vHFE/view?usp=share_link)
 
 ### Built with
 
