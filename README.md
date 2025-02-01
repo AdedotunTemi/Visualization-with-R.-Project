@@ -1,4 +1,4 @@
-# VISUALIZATION PROJECT WITH R-----1
+# VISUALIZATION PROJECT WITH R (Project 1)
 
 ## Table of contents
 
